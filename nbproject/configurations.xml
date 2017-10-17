@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Array.h</itemPath>
+      <itemPath>Array.hpp</itemPath>
+      <itemPath>Distance.h</itemPath>
+      <itemPath>EuclideanDistance.h</itemPath>
+      <itemPath>ExecInfo.h</itemPath>
+      <itemPath>FrechetDistance.h</itemPath>
+      <itemPath>G.h</itemPath>
+      <itemPath>G.hpp</itemPath>
+      <itemPath>Grid.h</itemPath>
+      <itemPath>Grid.hpp</itemPath>
+      <itemPath>GridTrack.h</itemPath>
+      <itemPath>H.h</itemPath>
+      <itemPath>H.hpp</itemPath>
+      <itemPath>Hashtable.h</itemPath>
+      <itemPath>Hashtable.hpp</itemPath>
+      <itemPath>Input.h</itemPath>
+      <itemPath>List.h</itemPath>
+      <itemPath>List.hpp</itemPath>
+      <itemPath>Loader.h</itemPath>
+      <itemPath>Output.h</itemPath>
+      <itemPath>Point.h</itemPath>
+      <itemPath>Point.hpp</itemPath>
+      <itemPath>PointDistance.h</itemPath>
+      <itemPath>Printer.h</itemPath>
+      <itemPath>ProjectionVector.h</itemPath>
+      <itemPath>RandomGenerator.h</itemPath>
+      <itemPath>Solver.h</itemPath>
+      <itemPath>TimeWarpDistance.h</itemPath>
+      <itemPath>Track.h</itemPath>
+      <itemPath>Track.hpp</itemPath>
+      <itemPath>TrackDistance.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>ExecInfo.cpp</itemPath>
+      <itemPath>GridTrack.cpp</itemPath>
+      <itemPath>Loader.cpp</itemPath>
+      <itemPath>Printer.cpp</itemPath>
+      <itemPath>RandomGenerator.cpp</itemPath>
+      <itemPath>Solver.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+      </compileType>
+      <item path="Array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Array.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Distance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EuclideanDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ExecInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ExecInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FrechetDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="G.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="G.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grid.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GridTrack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GridTrack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hashtable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hashtable.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="List.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="List.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Loader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Loader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Output.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PointDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Printer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Printer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ProjectionVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandomGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Solver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Solver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TimeWarpDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Track.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Track.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TrackDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Array.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Distance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EuclideanDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ExecInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ExecInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FrechetDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="G.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="G.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grid.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GridTrack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GridTrack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hashtable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hashtable.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="List.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="List.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Loader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Loader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Output.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PointDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Printer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Printer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ProjectionVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandomGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Solver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Solver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TimeWarpDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Track.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Track.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TrackDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="trajectories_small" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+      </compileType>
+      <item path="Array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Array.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Distance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EuclideanDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ExecInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ExecInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FrechetDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="G.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="G.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grid.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GridTrack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GridTrack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hashtable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hashtable.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="List.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="List.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Loader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Loader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Output.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PointDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Printer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Printer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ProjectionVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RandomGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Solver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Solver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TimeWarpDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Track.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Track.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TrackDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="trajectiories_large" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <warningLevel>2</warningLevel>
+        </ccTool>
+      </compileType>
+      <item path="Array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Array.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Distance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="EuclideanDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ExecInfo.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="ExecInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FrechetDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="G.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="G.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Grid.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GridTrack.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="GridTrack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="H.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hashtable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Hashtable.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Input.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="List.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="List.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Loader.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="Loader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Output.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Point.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PointDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Printer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Printer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ProjectionVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RandomGenerator.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+      <item path="RandomGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Solver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Solver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TimeWarpDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Track.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Track.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TrackDistance.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="9">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
